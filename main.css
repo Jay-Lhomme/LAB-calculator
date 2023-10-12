@@ -1,3 +1,60 @@
-body {
-  background-color: bisque;
+body { background-color: #ffffff;
+
+}
+.container {
+  max-width: 400px;
+  display:flex;
+  flex-wrap: wrap;
+ 
+  
+}
+
+button {
+  padding: 15px;
+  font-size: 26px;
+  width: 24.5%;
+  justify-content: space-between;
+} 
+
+.display {
+background-color: #000000;
+color: #ffffff;
+font-family: monospace;
+display: flex;
+justify-content: flex-end;
+height: 50px;
+font-size: 48px;
+width:100%;
+}
+
+.btn-number {
+  flex: 1 25%;
+
+}
+
+.btn-return {
+  flex: 1 25%;
+  
+}
+
+.btn-clear {
+flex: 1 50%;
+
+}
+
+.btn-zero {
+  flex: 1 75%;
+  
+}
+
+.btn-operator {
+  flex: 1 25%
+}
+.btn-equals {
+  flex: 1 25%;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
 }
