@@ -2,9 +2,10 @@ body { background-color: #ffffff;
 
 }
 .container {
-  max-width: 400px;
+  max-width: 230px;
   display:flex;
   flex-wrap: wrap;
+  font-family: monospace;
  
   
 }
@@ -25,10 +26,12 @@ justify-content: flex-end;
 height: 50px;
 font-size: 48px;
 width:100%;
+
 }
 
 .btn-number {
   flex: 1 25%;
+
 
 }
 
